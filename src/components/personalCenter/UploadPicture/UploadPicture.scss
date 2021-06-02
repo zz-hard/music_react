@@ -1,0 +1,12 @@
+.upload{
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+    border: 1px dashed #8c939d;
+    &:hover{
+        border: 1px solid #8c939d;
+    }
+}

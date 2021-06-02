@@ -1,0 +1,19 @@
+.order{
+    .order-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 16px;
+    }
+    .statuName{
+        display: inline-block;
+        line-height: 1;
+        white-space: nowrap;
+        background: #fff;
+        // border: 1px solid #c4c4c4;
+        color: #1f2d3d;
+        margin: 0;
+        padding: 10px 15px;
+        border-radius: 4px;
+    }
+}

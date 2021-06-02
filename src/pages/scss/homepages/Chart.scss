@@ -1,0 +1,88 @@
+.Chart{
+    width: 1330px;
+    height: calc(100vh - 100px);
+    background-color: #232424;
+    // margin: 40px;
+    margin: 10px auto;
+    .screen{
+        width: 1000px;
+        height: 100px;
+        background-color: #ffffff;
+        box-shadow: 0 3px 15px rgba(255, 255, 255, 0.8);
+        transform: rotateX(-45deg);
+        margin: 10px auto 50px;
+    }
+    .confirmSeat{
+        float: right;
+        margin-top: 20px;
+        margin-right: 120px;
+    }
+    .row{
+        // width: 100vw;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        .optional{
+            width: 35px;
+            height: 32px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            background-color: #989796;
+            margin: 3px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 12px;
+            line-height: 32px;
+            &:hover {
+                transform: scale(1.2);
+                cursor: pointer;
+            }
+            &:nth-of-type(4) {
+                margin-right: 26px;
+            }
+            &:nth-last-of-type(4) {
+                margin-left: 26px;
+              }
+            &:checked{
+                background-color: red;
+            }
+        }
+        .sold{
+            width: 35px;
+            height: 32px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            background-color: #f2f2f2;
+            margin: 3px;
+            cursor: not-allowed;
+            text-align: center;
+            font-size: 12px;
+            line-height: 32px;
+            &:nth-of-type(4) {
+                margin-right: 26px;
+              }
+            &:nth-last-of-type(4) {
+                margin-left: 26px;
+              }
+        }
+        .booked{
+            width: 35px;
+            height: 32px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            background-color: aqua;
+            margin: 3px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 12px;
+            line-height: 32px;
+            &:nth-of-type(4) {
+                margin-right: 26px;
+              }
+            &:nth-last-of-type(4) {
+                margin-left: 26px;
+              }
+        }
+    }
+    
+}

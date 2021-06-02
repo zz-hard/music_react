@@ -1,0 +1,18 @@
+.notFind{
+    overflow: hidden;
+    img{
+        position: absolute;
+        width:100%;
+        height:100vh;
+        z-index: -3;
+    }
+    .Btn{
+        position: absolute;
+        top: 500px;
+        left: 645px;
+        .btn{
+            border: 1px solid white;
+            background-color: #F76A52;
+        }
+    }
+}

@@ -1,0 +1,110 @@
+.releaseConcert{
+    // background: url("../../img/Cover.jpeg") no-repeat 100vw 100vh;
+    // height: 100vh;
+    .coverImg{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -3;
+    }
+    .up{
+        width: 500px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    #Tz_Message{
+        width:602px;
+        // height:140px;
+        padding:10px; 
+        background:#fff;  
+        margin:100px auto; 
+        border-radius:5px;
+        position:relative;
+        #MesCon{
+            width:600px;
+            height:100px; 
+            border:1px solid #ddd; 
+            border-radius:5px;
+            .imgBut{
+                width:100px;
+                height:100px; 
+                border-right:1px solid #ddd;
+                float:left; 
+                font-size:12px; 
+                color:#666; 
+                text-align:center; 
+                line-height:150px; 
+                background:url("../../img/tu.png") no-repeat 33px 30px;
+            }
+            .concertName{
+                line-height: 53px;
+                text-align: center;
+                width: 120px;
+                display: inline-block;
+                margin-left: 8px;
+                font-size: 18px;
+            }
+            .Edit{
+                border: 1px solid wheat;
+                width: 361px;
+                height: 93px;
+                float: right;
+                padding: 3px;
+                word-break:break-all;
+                overflow-y: auto;
+                // overflow-x: auto;
+            }
+        }
+        .price{
+            font-size:16px; 
+            font-family:"微软雅黑";
+        }
+        .fb{
+            width:90px;
+            height:40px; 
+            background:#ff9933; 
+            color:#fff; 
+            text-align:center; 
+            line-height:40px;
+            display:block; 
+            margin-top:10px; 
+            float:right; 
+            border-radius:5px; 
+            font-size:16px; 
+            font-family:"微软雅黑";
+        }
+        .upload{
+            width:620px;
+            height:220px; 
+            background:rgba(0,0,0,0.5); 
+            position:absolute;
+            left:0px; 
+            top:180px;
+            box-shadow:0px 0px 10px #fff;
+            display:none; 
+        }
+    }
+    .shuoshuo{
+        width:600px; 
+        min-height:300px; 
+        border:1px solid #ddd; 
+        border-radius:5px; 
+        margin:10px auto; 
+        background:#fff; 
+        padding:20px; 
+        display:none;
+        p{
+            font-size: 16px;
+            font-family: 'Microsoft Yahei';
+            padding: 5px
+        }
+        img{
+            display: block;
+        }
+        .box{
+            border-bottom:1px dotted #ddd; 
+            font-size:14px; 
+            line-height:30px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.community{
+    overflow-x: hidden;
+    .foot{
+        // height: 200px;
+        background-image: url('../../img/Cover.jpeg');
+        background-size: 100% 100%;
+        color: #fff;
+        position: relative;
+        .copyright{
+            text-align: center;
+            width: 100vw;
+            // float: right;
+            // margin-bottom: 0;
+            // padding-bottom: 0;
+            position: absolute;
+            bottom: 0;
+        }
+        .foot-wd{
+            float: right;
+            img{
+                width: 8rem;
+                height: 8rem;
+            }
+        }
+    }
+}

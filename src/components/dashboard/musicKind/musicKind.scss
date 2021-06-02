@@ -1,0 +1,28 @@
+.musicKind{
+    width: 100vw;
+    // height: 800px;
+    .container-musicKind{
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 500;
+        // position: relative;
+        .row{
+            margin-top: 16px;
+            margin-bottom: 50px;
+        }
+        img{
+            height: 15rem;
+        }
+        .name{
+            text-align:left;
+            font-size: 30px;
+        }
+    }
+
+}
+@media (min-width: 1440px) {
+    .container-musicKind {
+      max-width: 1330px;
+    }
+    
+}

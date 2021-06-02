@@ -1,0 +1,19 @@
+.innerContent{
+    width: 100vw;
+    // height: 800px;
+    .container-innerContent{
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 500;
+    }
+}
+@media (min-width: 1440px) {
+    .container-innerContent {
+      max-width: 1330px;
+    }
+    .logo{
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+    }
+}
